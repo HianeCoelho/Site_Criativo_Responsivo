@@ -1,35 +1,37 @@
 body {
-  padding: 20px;
   background-color: rgb(157, 127, 254);
-  font-family: "Didact Gothic";
-  font-size: 10px;
+  font-family: "Inclusive Sans";
 }
 
 header {
   background-color: rgb(99, 57, 157);
   border: 3px;
   text-align: center;
-  padding: 30px;
-  font-size: 80px;
+  padding: 10px;
+  font-size: 50px;
   color: rgb(0, 0, 0);
   border-radius: 25px;
 }
+.conteiner{
+  display: flex;
+  flex-direction: column;
+}
 
 p {
-  font-size: 40px;
+  font-size: 23px;
   color: rgb(0, 0, 0);
   text-align: left;
 }
 
 h1 {
+  margin-top: 40px;
   font-size: 40px;
   color: rgb(0, 0, 0);
-  text-align: left;
-  display: inline-block;
+  text-align: center;
 }
 
 li {
-  font-size: 40px;
+  font-size: 23px;
   color: rgb(0, 0, 0);
   list-style: decimal;
   list-style-position: inside;
@@ -37,53 +39,39 @@ li {
 }
 
 img {
-  height: 400px;
+  height: 200px;
   border-radius: 25px;
 }
 
-.album-info {
+.bio{
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.fim{
+  margin-bottom: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.album-info{
+  margin:40px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: 20px;
+}
+
+.album-info p{
+  text-align: center;
 }
 
 .album-info ol li::marker {
   font-weight: bold;
 }
 
-.album-info .texto {
-  display: flex;
-  align-items: center;
-  margin: 20px;
-  justify-content: space-between;
-}
-
-.album-info .texto .title {
-  font-size: 60px;
+.album-info .title {
+  font-size: 40px;
   font-weight: bold;
-  margin: 0;
-  padding: 0;
-}
-
-.album-info .texto .info {
-  margin-left: 120px;
-} 
-
-.album-info img {
-  margin-right: 10px;
-}
-
-.album-info p {
-  text-align: center;
-}
-
-.album-info.left-align {
-  justify-content: flex-start;
-}
-
-.album-info.left-align p {
-  text-align: center;
 }
 
 @media (max-width: 720px) {
@@ -92,25 +80,4 @@ img {
     align-items: center;
   }
 
-  body {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .album-info .texto {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-<<<<<<< HEAD
-
-  p{
-    align-items: center;
-    flex-direction: column;
-=======
-   p{
-    flex-direction: column;
-    align-items: center;
->>>>>>> 07d30150aca8b28cbe65d9fdde34ed8965b9fa19
-  }
 }
