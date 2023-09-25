@@ -75,7 +75,7 @@ img {
 }
 
 .album-info p {
-  text-align: left;
+  text-align: center;
 }
 
 .album-info.left-align {
@@ -101,5 +101,10 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  p{
+    align-items: center;
+    flex-direction: column;
   }
 }
