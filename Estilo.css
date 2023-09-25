@@ -102,4 +102,8 @@ img {
     justify-content: center;
     align-items: center;
   }
+   p{
+    flex-direction: column;
+    align-items: center;
+  }
 }
