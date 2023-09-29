@@ -17,6 +17,10 @@ header {
   flex-direction: column;
 }
 
+a{
+  color:black ;
+}
+
 p {
   font-size: 23px;
   color: rgb(0, 0, 0);
